@@ -74,6 +74,10 @@
             margin-right: auto;
         }
 
+        .fb-like {
+            margin-top: 1em;
+        }
+
     </style>
     <script type="text/javascript">
 
@@ -91,6 +95,17 @@
 </head>
 
 <body>
+<!-- Facebook JavaScript SDK for the Like Button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=315227275188203";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- END: Facebook JavaScript SDK -->
+
 <a href="https://github.com/everythingisamazing/everythingisamazing.github.com"><img
         style="position: absolute; top: 0; right: 0; border: 0;"
         src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
@@ -122,6 +137,8 @@
         <iframe width="480" height="360" src="http://www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0"
                 allowfullscreen></iframe>
     </div>
+
+    <div class="fb-like" data-href="http://yourenothappy.com" data-send="true" data-width="450" data-show-faces="true"></div>
 
     <div class="footer">
         Created by <a href="http://jaxzin.github.com">Brian R. Jackson</a>.

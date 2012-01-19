@@ -174,12 +174,12 @@
 
     <div id="video">
         <iframe width="480" height="360" src="http://www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0"
-                allowfullscreen></iframe>
+                allowfullscreen onplay="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Everything is Amazing!']);"></iframe>
     </div>
 
     <div class="fb-like" data-href="http://yourenothappy.com" data-send="true" data-width="450"
-         data-show-faces="true"></div>
-    <div class="tweet">
+         data-show-faces="true" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Facebook']);"></div>
+    <div class="tweet" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Twitter']);">
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="jaxzin">Tweet</a>
         <script>!function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -192,7 +192,7 @@
         }(document, "script", "twitter-wjs");</script>
     </div>
     <!-- Place this tag where you want the +1 button to render -->
-    <g:plusone annotation="inline"></g:plusone>
+    <g:plusone annotation="inline" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Google+']);"></g:plusone>
     <!-- Place this render call where appropriate -->
     <script type="text/javascript">
         (function() {

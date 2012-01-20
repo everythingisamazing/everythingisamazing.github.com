@@ -51,6 +51,9 @@ p {
     border: 15px solid white;
     left: -30px;
     float: left;
+    -moz-box-shadow: 1px 1px 10px #888;
+    -webkit-box-shadow: 1px 1px 10px #888;
+    box-shadow: 1px 1px 10px #888;
 }
 
 #sidebar {

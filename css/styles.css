@@ -73,13 +73,21 @@ p {
 	width: 250px;
 	margin-left: 40px;
 	margin-right: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     float: left;
 }
 
-#sidebar p {
+#note h3 {
+    font-size: 0.9em;
+}
+
+#note p {
     font-size: 1em;
     line-height: 150%
+}
+
+#note {
+    margin-bottom: 25px;
 }
 
 .footer {

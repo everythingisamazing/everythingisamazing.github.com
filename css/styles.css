@@ -54,3 +54,14 @@ p {
 	margin-left: auto;	
 	margin-right: auto;
 }
+
+.footer {
+    font-size: 0.5em;
+    text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+}
+
+.fb-like {
+    margin-top: 1em;
+}

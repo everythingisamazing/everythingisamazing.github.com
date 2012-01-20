@@ -1,0 +1,56 @@
+/* CSS Document */
+
+body {
+	background:url(../images/background.jpg);
+	margin:0;
+}
+
+#main {
+	height: 100%;
+}
+
+#header{
+	background:url(../images/header.png) no-repeat center top;
+	height: 600px;
+	width: 100%;
+}
+
+#contentWrapper{
+	margin-left: 32%;
+	margin-right: 32%;
+}
+
+#content {
+	position:absolute;
+	z-index: 1;
+	top:300px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 600px;
+}
+
+h3{
+	color: #b15f1d;
+	text-transform:uppercase;
+	font-family: 'Cambo';
+	font-size: 1.0em;
+}
+
+p {
+	font-family: Arial, Helvetica;
+	color: #48443c;
+}
+
+#videoContainer {
+	width: 480px; 
+	position:relative; 
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+#sidebar {
+	position:relative; 
+	width: 220px;
+	margin-left: auto;	
+	margin-right: auto;
+}

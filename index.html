@@ -1,91 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset='utf-8'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
 
     <title>Everything is Amazing, but You're Not Happy</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Nunito' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/styles.css" />
 
-    <style type="text/css" media="all">
-        body {
-            margin-top: 1.0em;
-            background-color: #F7F0DD;
-            font-family: 'Nunito', Helvetica, Arial, FreeSans, sans-serif;
-            color: #000000;
-        }
-
-        #container {
-            margin: 0 auto;
-            width: 700px;
-            background-color: #FFFFF7;
-            padding: 10px 5em;
-            border: #d3d3d3 solid 1px;
-        }
-
-        h1 {
-            font-family: 'Sorts Mill Goudy', Helvetica, Arial, FreeSans, serif;
-            font-size: 3.8em;
-            color: #000000;
-            margin-bottom: 3px;
-        }
-
-        h1 a {
-            text-decoration: none
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: #000000;
-        }
-
-        h3 {
-            text-align: center;
-            color: #000000;
-        }
-
-        a {
-            color: #000000;
-        }
-
-        .description {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            margin-top: 30px;
-            font-style: italic;
-        }
-
-        pre {
-            background: #000;
-            color: #fff;
-            padding: 15px;
-        }
-
-        hr {
-            border: 0;
-            width: 80%;
-            border-bottom: 1px solid #aaa
-        }
-
-        .footer {
-            font-size: 0.5em;
-            text-align: center;
-            padding-top: 30px;
-            font-style: italic;
-        }
-
-        #video {
-            width: 480px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .fb-like {
-            margin-top: 1em;
-        }
-
-    </style>
 
     <style type="text/css" media="only screen and (max-device-width: 480px)">
         #container {
@@ -131,6 +54,7 @@
 </head>
 
 <body>
+
 <!-- Facebook JavaScript SDK for the Like Button -->
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -150,65 +74,64 @@
         src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
         alt="Fork me on GitHub"/></a>
 
-<div id="container">
+	<div id="main">
+		<div id="header"></div>
+        <div id="contentWrapper">
+        	<div id="content">
+            	<h3>Where am I? How did I get here?</h3>
+                <div>
+                	<p>This is where your over-inflated sense of entitlement lands you. In the great words of Louis C.K., "Everything is amazing, and nobody's happy."</p>
+                    <p>Sadly, you've become one of these people.</p>
+                </div>
+            </div>
+            <div id="videoContainer">
+                <iframe width="480" height="360" src="http://www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0" allowfullscreen  onplay="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Everything is Amazing!']);"></iframe>
+            </div>
+            <div id="sidebar">
+                <div id="note">
+                    <h3>Please Note:</h3>
+                    <div>
+                        <p>
+                            The person who sent you this doesn't think you're a bad person, they simply know you've lost 
+                            sight of what is important. Take a breath, step away from the keyboard, and remember what an amazing time we live in...
+                        </p>
+                    </div>
+                </div>
+                <div id="share">
+                </div>
+            </div>
+            <div class="fb-like" data-href="http://yourenothappy.com" data-send="true" data-width="450"
+                 data-show-faces="true" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Facebook']);"></div>
+            <div class="tweet" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Twitter']);">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="jaxzin">Tweet</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
+            </div>
+            <!-- Place this tag where you want the +1 button to render -->
+            <g:plusone annotation="inline" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Google+']);"></g:plusone>
+            <!-- Place this render call where appropriate -->
+            <script type="text/javascript">
+                (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+            </script>
+        </div>
 
-    <h1><a href="http://about.me/jaxzin">Everything is Amazing!</a></h1>
-
-    <div class="description">
-        ...but you're still not happy.
+        <div class="footer">
+            Created by <a href="http://jaxzin.github.com">@jaxzin</a>.
+            Design by <a href="http://www.kurtgannon.com/">@kurtgannon</a>.
+            Help from <a href="https://twitter.com/chris_allgood">@callgood</a>.
+            Inspired with thanks to <a href="https://twitter.com/louisck">Louis C.K.</a>
+        </div>
     </div>
-
-    <p>
-        Hi! You were given a link to this page by someone who thinks you have an overinflated sense of entitlement. In
-        the great
-        words of Louis C.K. <a href="http://www.youtube.com/watch?v=8r1CZTLk-Gk">"Everything is amazing, and nobody's
-        happy."</a>
-        and sadly you've become one of those people.
-    </p>
-
-    <p>
-        The person who sent you this doesn't think you're a bad person, they simply know you've lost sight of what is
-        important.
-        Take a breath, step away from the keyboard, and remember what an amazing time we live in.
-    </p>
-
-    <div id="video">
-        <iframe width="480" height="360" src="http://www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0"
-                allowfullscreen onplay="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Everything is Amazing!']);"></iframe>
-    </div>
-
-    <div class="fb-like" data-href="http://yourenothappy.com" data-send="true" data-width="450"
-         data-show-faces="true" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Facebook']);"></div>
-    <div class="tweet" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Twitter']);">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="jaxzin">Tweet</a>
-        <script>!function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (!d.getElementById(id)) {
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//platform.twitter.com/widgets.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }
-        }(document, "script", "twitter-wjs");</script>
-    </div>
-    <!-- Place this tag where you want the +1 button to render -->
-    <g:plusone annotation="inline" onclick="_gaq.push(['_trackEvent', 'Social', 'Like', 'Google+']);"></g:plusone>
-    <!-- Place this render call where appropriate -->
-    <script type="text/javascript">
-        (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-        })();
-    </script>
-
-
-    <div class="footer">
-        Created by <a href="http://jaxzin.github.com">@jaxzin</a>.
-        Inspired with thanks to <a href="https://twitter.com/louisck">Louis C.K.</a>
-    </div>
-
-</div>
-
 </body>
 </html>

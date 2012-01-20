@@ -13,11 +13,13 @@ body {
 	background:url(../images/header.png) no-repeat center top;
 	height: 600px;
 	width: 100%;
+    margin-bottom: -170px;
 }
 
 #contentWrapper{
-	margin-left: 32%;
-	margin-right: 32%;
+	margin-left: auto;
+	margin-right: auto;
+    width: 750px;
 }
 
 #content {
@@ -43,9 +45,12 @@ p {
 
 #videoContainer {
 	width: 480px; 
-	position:relative; 
+	position: relative;
 	margin-left: auto;	
 	margin-right: auto;
+    border: 15px solid white;
+    left: -30px;
+    float: left;
 }
 
 #sidebar {
@@ -53,6 +58,7 @@ p {
 	width: 220px;
 	margin-left: auto;	
 	margin-right: auto;
+    float:left;
 }
 
 .footer {

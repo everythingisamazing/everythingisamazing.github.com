@@ -5,6 +5,10 @@ body {
 	margin:0;
 }
 
+a {
+    color: #b15f1d;
+}
+
 #main {
 	height: 100%;
 }

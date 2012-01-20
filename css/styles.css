@@ -71,6 +71,8 @@ p {
     text-align: center;
     padding-top: 30px;
     font-style: italic;
+    height: 1em;
+    clear: both;
 }
 
 .fb-like {

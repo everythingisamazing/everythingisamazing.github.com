@@ -70,11 +70,16 @@ p {
 
 #sidebar {
 	position:relative; 
-	width: 220px;
+	width: 250px;
 	margin-left: 40px;
 	margin-right: auto;
     margin-top: 40px;
     float: left;
+}
+
+#sidebar p {
+    font-size: 1em;
+    line-height: 150%
 }
 
 .footer {

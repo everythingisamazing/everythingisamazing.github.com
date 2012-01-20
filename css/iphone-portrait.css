@@ -1,0 +1,20 @@
+#container {
+    width: auto;
+    background-color: #FFFFF7;
+    padding: 10px 1em;
+    border: #d3d3d3 solid 1px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+#fork-ribbon {
+    width: 80px;
+    height: auto;
+}
+
+#videoContainer iframe {
+    width: 250px;
+    height: auto;
+}

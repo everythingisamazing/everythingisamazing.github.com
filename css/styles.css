@@ -19,7 +19,8 @@ body {
 #contentWrapper{
 	margin-left: auto;
 	margin-right: auto;
-    width: 750px;
+    width: 800px;
+    padding-left: 200px;
 }
 
 #content {
@@ -49,7 +50,7 @@ p {
 	margin-left: auto;	
 	margin-right: auto;
     border: 15px solid white;
-    left: -30px;
+    left: 0px;
     float: left;
     -moz-box-shadow: 1px 1px 10px #888;
     -webkit-box-shadow: 1px 1px 10px #888;
@@ -59,9 +60,10 @@ p {
 #sidebar {
 	position:relative; 
 	width: 220px;
-	margin-left: auto;	
+	margin-left: 40px;
 	margin-right: auto;
-    float:left;
+    margin-top: 40px;
+    float: left;
 }
 
 .footer {

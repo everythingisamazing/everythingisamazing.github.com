@@ -41,11 +41,18 @@ h3{
 	text-transform:uppercase;
 	font-family: 'Cambo';
 	font-size: 1.0em;
+    margin-bottom: -10px;
 }
 
 p {
 	font-family: Arial, Helvetica;
 	color: #48443c;
+    line-height: 130%;
+    font-size: 110%
+}
+
+#content strong {
+    font-style: italic;
 }
 
 #videoContainer {

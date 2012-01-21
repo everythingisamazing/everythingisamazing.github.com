@@ -103,3 +103,6 @@ p {
 .fb-like {
     margin-top: 1em;
 }
+.tweet, .plusone {
+    margin-top: 0.25em;
+}

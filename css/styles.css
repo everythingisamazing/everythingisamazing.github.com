@@ -106,3 +106,10 @@ p {
 .tweet, .plusone {
     margin-top: 0.25em;
 }
+
+#credits {
+    visibility: hidden;
+}
+#credits span {
+    display: inline-block;
+}

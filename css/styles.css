@@ -60,6 +60,7 @@ p {
 	position: relative;
 	margin-left: auto;	
 	margin-right: auto;
+    margin-top: 30px;
     border: 15px solid white;
     left: 0px;
     float: left;

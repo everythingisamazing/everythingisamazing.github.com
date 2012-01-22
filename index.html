@@ -13,6 +13,14 @@
     <script type="text/javascript" src="https://www.google.com/jsapi?key=ABQIAAAAGIBOU3lHKK_YZEf5G4ymXhTkmBLP_-2pi18i61jkMB8oEvmH3xTuUm00ZPO_VAdtrq6n74XTlyRTEQ"></script>
     <script type="text/javascript">
         google.load("jquery", "1.7.1");
+
+        var tracked = false;
+        function trackPlay() {
+            if(!tracked) {
+                tracked = true;
+                _gaq.push(['_trackEvent', 'Videos', 'Play', 'Everything\'s Amazing, Nobody\'s Happy.']);
+            }
+        }
     </script>
     <script type="text/javascript" src="js/thickbox-compressed.js"></script>
 
@@ -68,7 +76,7 @@
                 <p>Sadly, you've become one of these people.</p>
             </div>
         </div>
-        <div id="videoContainer" onmouseover="_gaq.push(['_trackEvent', 'Videos', 'Play', 'Everything\'s Amazing, Nobody\'s Happy.']);">
+        <div id="videoContainer" onmouseover="trackPlay();">
             <iframe width="480" height="360" src="http://www.youtube.com/embed/8r1CZTLk-Gk" frameborder="0"
                     allowfullscreen></iframe>
         </div>
